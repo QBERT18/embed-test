@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-tiktok@0.1.0/lite-tiktok.js"
+    ></script>
+    <title>Tiktok Videos</title>
+    <style>
+      html,
+      body {
+        min-height: 100%;
+      }
+      .custom-shadow {
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+      }
+    </style>
+  </head>
+  <body class="p-20">
+    <section
+      class="p-16 w-full h-full grid grid-cols-4 gap-20 custom-shadow"
+      id="container"
+    >
+      <lite-tiktok videoid="7272819960404102443"></lite-tiktok>
+      <lite-tiktok videoid="7255430213532667178"></lite-tiktok>
+      <lite-tiktok videoid="7271758501649648939"></lite-tiktok>
+      <lite-tiktok videoid="7272503340716657962"></lite-tiktok>
+      <lite-tiktok videoid="7292640357475536170"></lite-tiktok>
+      <lite-tiktok videoid="7259819797280460078"></lite-tiktok>
+      <lite-tiktok videoid="7275272504095051050"></lite-tiktok>
+      <lite-tiktok videoid="7276565962931850539"></lite-tiktok>
+      <lite-tiktok videoid="7301458958420692267"></lite-tiktok>
+      <lite-tiktok videoid="7299227525908155694"></lite-tiktok>
+      <lite-tiktok videoid="7290561750095744299"></lite-tiktok>
+    </section>
+    <script async src="https://www.tiktok.com/embed.js"></script>
+  </body>
+</html>
