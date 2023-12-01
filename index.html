@@ -3,7 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
     <script
       type="module"
       src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-tiktok@0.1.0/lite-tiktok.js"
@@ -19,23 +24,1151 @@
       }
     </style>
   </head>
-  <body class="p-20">
-    <section
-      class="p-16 w-full h-full grid grid-cols-4 gap-20 custom-shadow"
-      id="container"
-    >
-      <lite-tiktok videoid="7272819960404102443"></lite-tiktok>
-      <lite-tiktok videoid="7255430213532667178"></lite-tiktok>
-      <lite-tiktok videoid="7271758501649648939"></lite-tiktok>
-      <lite-tiktok videoid="7272503340716657962"></lite-tiktok>
-      <lite-tiktok videoid="7292640357475536170"></lite-tiktok>
-      <lite-tiktok videoid="7259819797280460078"></lite-tiktok>
-      <lite-tiktok videoid="7275272504095051050"></lite-tiktok>
-      <lite-tiktok videoid="7276565962931850539"></lite-tiktok>
-      <lite-tiktok videoid="7301458958420692267"></lite-tiktok>
-      <lite-tiktok videoid="7299227525908155694"></lite-tiktok>
-      <lite-tiktok videoid="7290561750095744299"></lite-tiktok>
-    </section>
+  <body class="p-5">
+    <div class="content">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link active"
+            id="sound-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#sound"
+            type="button"
+            role="tab"
+            aria-controls="sound"
+            aria-selected="true"
+          >
+            Sounds
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="profile-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#profile"
+            type="button"
+            role="tab"
+            aria-controls="profile"
+            aria-selected="true"
+          >
+            Profiles
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="video-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#video"
+            type="button"
+            role="tab"
+            aria-controls="video"
+            aria-selected="true"
+          >
+            Videos
+          </button>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div
+          class="tab-pane fade show active"
+          id="sound"
+          role="tabpanel"
+          aria-labelledby="sound-tab"
+        >
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/music/original-sound-7274312660030655264"
+                data-music-id="original-sound-7274312660030655264"
+                data-embed-from="embed_page"
+                data-embed-type="music"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="♬ original-sound - Lily Phillips"
+                    href="https://www.tiktok.com/music/original-sound-7274312660030655264?refer=music_embed"
+                    >♬ original-sound - Lily Phillips</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/music/original-sound-7276546600669842181"
+                data-music-id="original-sound-7276546600669842181"
+                data-embed-from="embed_page"
+                data-embed-type="music"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="♬ original-sound - 🩷IG:leonuwu3__"
+                    href="https://www.tiktok.com/music/original-sound-7276546600669842181?refer=music_embed"
+                    >♬ original-sound - 🩷IG:leonuwu3__</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/music/original-sound-7275940034723826474"
+                data-music-id="original-sound-7275940034723826474"
+                data-embed-from="embed_page"
+                data-embed-type="music"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="♬ original-sound - user45500147572"
+                    href="https://www.tiktok.com/music/original-sound-7275940034723826474?refer=music_embed"
+                    >♬ original-sound - user45500147572</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/music/sonido-original-7018543928358062853"
+                data-music-id="sonido-original-7018543928358062853"
+                data-embed-from="embed_page"
+                data-embed-type="music"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="♬ sonido-original - Carolina🥀♋️"
+                    href="https://www.tiktok.com/music/sonido-original-7018543928358062853?refer=music_embed"
+                    >♬ sonido-original - Carolina🥀♋️</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/music/original-sound-7270178918609505026"
+                data-music-id="original-sound-7270178918609505026"
+                data-embed-from="embed_page"
+                data-embed-type="music"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="♬ original-sound - IamSam"
+                    href="https://www.tiktok.com/music/original-sound-7270178918609505026?refer=music_embed"
+                    >♬ original-sound - IamSam</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/music/Tragg-x-Problemon-Papi-Papi-7054457474740439834"
+                data-music-id="Tragg-x-Problemon-Papi-Papi-7054457474740439834"
+                data-embed-from="embed_page"
+                data-embed-type="music"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="♬ Tragg-x-Problemon-Papi-Papi - Kuya Magik 🪄"
+                    href="https://www.tiktok.com/music/Tragg-x-Problemon-Papi-Papi-7054457474740439834?refer=music_embed"
+                    >♬ Tragg-x-Problemon-Papi-Papi - Kuya Magik 🪄</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/music/sonido-original-7108456238186334981"
+                data-music-id="sonido-original-7108456238186334981"
+                data-embed-from="embed_page"
+                data-embed-type="music"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="♬ sonido-original - AHINARA🔥"
+                    href="https://www.tiktok.com/music/sonido-original-7108456238186334981?refer=music_embed"
+                    >♬ sonido-original - AHINARA🔥</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/music/Tacata-7273996947621481222"
+                data-music-id="Tacata-7273996947621481222"
+                data-embed-from="embed_page"
+                data-embed-type="music"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="♬ Tacata - Tiagz"
+                    href="https://www.tiktok.com/music/Tacata-7273996947621481222?refer=music_embed"
+                    >♬ Tacata - Tiagz</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/music/original-sound-7284307184085633793"
+                data-music-id="original-sound-7284307184085633793"
+                data-embed-from="embed_page"
+                data-embed-type="music"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="♬ original-sound - Lucy❤️"
+                    href="https://www.tiktok.com/music/original-sound-7284307184085633793?refer=music_embed"
+                    >♬ original-sound - Lucy❤️</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/music/sonido-original-7074095989505657605"
+                data-music-id="sonido-original-7074095989505657605"
+                data-embed-from="embed_page"
+                data-embed-type="music"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="♬ sonido-original - Sof Mosqueda"
+                    href="https://www.tiktok.com/music/sonido-original-7074095989505657605?refer=music_embed"
+                    >♬ sonido-original - Sof Mosqueda</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/music/original-sound-7273885628121631520"
+                data-music-id="original-sound-7273885628121631520"
+                data-embed-from="embed_page"
+                data-embed-type="music"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="♬ original-sound - user59212008574"
+                    href="https://www.tiktok.com/music/original-sound-7273885628121631520?refer=music_embed"
+                    >♬ original-sound - user59212008574</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/music/original-sound-7292972423543147307"
+                data-music-id="original-sound-7292972423543147307"
+                data-embed-from="embed_page"
+                data-embed-type="music"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="♬ original-sound - Elena Sainte"
+                    href="https://www.tiktok.com/music/original-sound-7292972423543147307?refer=music_embed"
+                    >♬ original-sound - Elena Sainte</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/music/original-sound-7302198835537906462"
+                data-music-id="original-sound-7302198835537906462"
+                data-embed-from="embed_page"
+                data-embed-type="music"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="♬ original-sound - Elena Sainte"
+                    href="https://www.tiktok.com/music/original-sound-7302198835537906462?refer=music_embed"
+                    >♬ original-sound - Elena Sainte</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/music/original-sound-7281327967676943146"
+                data-music-id="original-sound-7281327967676943146"
+                data-embed-from="embed_page"
+                data-embed-type="music"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="♬ original-sound - Suckasaurus"
+                    href="https://www.tiktok.com/music/original-sound-7281327967676943146?refer=music_embed"
+                    >♬ original-sound - Suckasaurus</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/music/Use-this-sound-if-Ur-gay-7194146024385170222"
+                data-music-id="Use-this-sound-if-Ur-gay-7194146024385170222"
+                data-embed-from="embed_page"
+                data-embed-type="music"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="♬ Use-this-sound-if-Ur-gay - • Angel •"
+                    href="https://www.tiktok.com/music/Use-this-sound-if-Ur-gay-7194146024385170222?refer=music_embed"
+                    >♬ Use-this-sound-if-Ur-gay - • Angel •</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/music/original-sound-7264626274130971424"
+                data-music-id="original-sound-7264626274130971424"
+                data-embed-from="embed_page"
+                data-embed-type="music"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="♬ original-sound - Astrid Wett"
+                    href="https://www.tiktok.com/music/original-sound-7264626274130971424?refer=music_embed"
+                    >♬ original-sound - Astrid Wett</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/music/Originalton-7287948988215577376"
+                data-music-id="Originalton-7287948988215577376"
+                data-embed-from="embed_page"
+                data-embed-type="music"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="♬ Originalton - USA Perlage"
+                    href="https://www.tiktok.com/music/Originalton-7287948988215577376?refer=music_embed"
+                    >♬ Originalton - USA Perlage</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/music/original-sound-7134280351274257158"
+                data-music-id="original-sound-7134280351274257158"
+                data-embed-from="embed_page"
+                data-embed-type="music"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="♬ original-sound - Kenny"
+                    href="https://www.tiktok.com/music/original-sound-7134280351274257158?refer=music_embed"
+                    >♬ original-sound - Kenny</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/music/оригинальный-звук-7252080182872656646"
+                data-music-id="оригинальный-звук-7252080182872656646"
+                data-embed-from="embed_page"
+                data-embed-type="music"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="♬ оригинальный-звук - user94291808020"
+                    href="https://www.tiktok.com/music/оригинальный-звук-7252080182872656646?refer=music_embed"
+                    >♬ оригинальный-звук - user94291808020</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/music/Originalton-7202858890994797317"
+                data-music-id="Originalton-7202858890994797317"
+                data-embed-from="embed_page"
+                data-embed-type="music"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="♬ Originalton - L.M"
+                    href="https://www.tiktok.com/music/Originalton-7202858890994797317?refer=music_embed"
+                    >♬ Originalton - L.M</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/music/original-sound-7268541853836774186"
+                data-music-id="original-sound-7268541853836774186"
+                data-embed-from="embed_page"
+                data-embed-type="music"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="♬ original-sound - Jessie"
+                    href="https://www.tiktok.com/music/original-sound-7268541853836774186?refer=music_embed"
+                    >♬ original-sound - Jessie</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/music/original-sound-7273411454425500448"
+                data-music-id="original-sound-7273411454425500448"
+                data-embed-from="embed_page"
+                data-embed-type="music"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="♬ original-sound - user32211226846"
+                    href="https://www.tiktok.com/music/original-sound-7273411454425500448?refer=music_embed"
+                    >♬ original-sound - user32211226846</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/music/original-sound-7286100029675146030"
+                data-music-id="original-sound-7286100029675146030"
+                data-embed-from="embed_page"
+                data-embed-type="music"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="♬ original-sound - Jessie"
+                    href="https://www.tiktok.com/music/original-sound-7286100029675146030?refer=music_embed"
+                    >♬ original-sound - Jessie</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/music/original-sound-7259083201740983066"
+                data-music-id="original-sound-7259083201740983066"
+                data-embed-from="embed_page"
+                data-embed-type="music"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="♬ original-sound - MILKSHAKE"
+                    href="https://www.tiktok.com/music/original-sound-7259083201740983066?refer=music_embed"
+                    >♬ original-sound - MILKSHAKE</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/music/original-sound-7273591141352753952"
+                data-music-id="original-sound-7273591141352753952"
+                data-embed-from="embed_page"
+                data-embed-type="music"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="♬ original-sound - Jully"
+                    href="https://www.tiktok.com/music/original-sound-7273591141352753952?refer=music_embed"
+                    >♬ original-sound - Jully</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/music/original-sound-7274935055225850657"
+                data-music-id="original-sound-7274935055225850657"
+                data-embed-from="embed_page"
+                data-embed-type="music"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="♬ original-sound - user07041342588"
+                    href="https://www.tiktok.com/music/original-sound-7274935055225850657?refer=music_embed"
+                    >♬ original-sound - user07041342588</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/music/original-sound-7274770686009297696"
+                data-music-id="original-sound-7274770686009297696"
+                data-embed-from="embed_page"
+                data-embed-type="music"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="♬ original-sound - user15097272606"
+                    href="https://www.tiktok.com/music/original-sound-7274770686009297696?refer=music_embed"
+                    >♬ original-sound - user15097272606</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/music/original-sound-7257240855738665754"
+                data-music-id="original-sound-7257240855738665754"
+                data-embed-from="embed_page"
+                data-embed-type="music"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="♬ original-sound - user56001213232"
+                    href="https://www.tiktok.com/music/original-sound-7257240855738665754?refer=music_embed"
+                    >♬ original-sound - user56001213232</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/music/original-sound-7274306430293805856"
+                data-music-id="original-sound-7274306430293805856"
+                data-embed-from="embed_page"
+                data-embed-type="music"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="♬ original-sound - Elsa"
+                    href="https://www.tiktok.com/music/original-sound-7274306430293805856?refer=music_embed"
+                    >♬ original-sound - Elsa</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/music/original-sound-7286195572556499718"
+                data-music-id="original-sound-7286195572556499718"
+                data-embed-from="embed_page"
+                data-embed-type="music"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="♬ original-sound - Bron"
+                    href="https://www.tiktok.com/music/original-sound-7286195572556499718?refer=music_embed"
+                    >♬ original-sound - Bron</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/music/original-sound-7274522216799144736"
+                data-music-id="original-sound-7274522216799144736"
+                data-embed-from="embed_page"
+                data-embed-type="music"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="♬ original-sound - user59212008574"
+                    href="https://www.tiktok.com/music/original-sound-7274522216799144736?refer=music_embed"
+                    >♬ original-sound - user59212008574</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/music/original-sound-7235607316106627886"
+                data-music-id="original-sound-7235607316106627886"
+                data-embed-from="embed_page"
+                data-embed-type="music"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="♬ original-sound - Celina"
+                    href="https://www.tiktok.com/music/original-sound-7235607316106627886?refer=music_embed"
+                    >♬ original-sound - Celina</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/music/original-sound-7271414450630953771"
+                data-music-id="original-sound-7271414450630953771"
+                data-embed-from="embed_page"
+                data-embed-type="music"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="♬ original-sound - Quinn"
+                    href="https://www.tiktok.com/music/original-sound-7271414450630953771?refer=music_embed"
+                    >♬ original-sound - Quinn</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/music/original-sound-7271747866996362016"
+                data-music-id="original-sound-7271747866996362016"
+                data-embed-from="embed_page"
+                data-embed-type="music"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="♬ original-sound - Kiera"
+                    href="https://www.tiktok.com/music/original-sound-7271747866996362016?refer=music_embed"
+                    >♬ original-sound - Kiera</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/music/original-sound-7224220262521539355"
+                data-music-id="original-sound-7224220262521539355"
+                data-embed-from="embed_page"
+                data-embed-type="music"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="♬ original-sound - Belle Olivia🌹"
+                    href="https://www.tiktok.com/music/original-sound-7224220262521539355?refer=music_embed"
+                    >♬ original-sound - Belle Olivia🌹</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade show"
+          id="profile"
+          role="tabpanel"
+          aria-labelledby="sound-tab"
+        >
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/@pinknikki.3"
+                data-unique-id="pinknikki.3"
+                data-embed-from="embed_page"
+                data-embed-type="creator"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    href="https://www.tiktok.com/@pinknikki.3?refer=creator_embed"
+                    >@pinknikki.3</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/@mandylawyerohio"
+                data-unique-id="mandylawyerohio"
+                data-embed-from="embed_page"
+                data-embed-type="creator"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    href="https://www.tiktok.com/@mandylawyerohio?refer=creator_embed"
+                    >@mandylawyerohio</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/@peachy_fuzz_fuzz"
+                data-unique-id="peachy_fuzz_fuzz"
+                data-embed-from="embed_page"
+                data-embed-type="creator"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    href="https://www.tiktok.com/@peachy_fuzz_fuzz?refer=creator_embed"
+                    >@peachy_fuzz_fuzz</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/@urrrnewgf"
+                data-unique-id="urrrnewgf"
+                data-embed-from="embed_page"
+                data-embed-type="creator"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    href="https://www.tiktok.com/@urrrnewgf?refer=creator_embed"
+                    >@urrrnewgf</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/@jennyxrated"
+                data-unique-id="jennyxrated"
+                data-embed-from="embed_page"
+                data-embed-type="creator"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    href="https://www.tiktok.com/@jennyxrated?refer=creator_embed"
+                    >@jennyxrated</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/@foxy.redheadmia"
+                data-unique-id="foxy.redheadmia"
+                data-embed-from="embed_page"
+                data-embed-type="creator"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    href="https://www.tiktok.com/@foxy.redheadmia?refer=creator_embed"
+                    >@foxy.redheadmia</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/@patriotgirlmichellex"
+                data-unique-id="patriotgirlmichellex"
+                data-embed-from="embed_page"
+                data-embed-type="creator"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    href="https://www.tiktok.com/@patriotgirlmichellex?refer=creator_embed"
+                    >@patriotgirlmichellex</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/@piritoiesha"
+                data-unique-id="piritoiesha"
+                data-embed-from="embed_page"
+                data-embed-type="creator"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    href="https://www.tiktok.com/@piritoiesha?refer=creator_embed"
+                    >@piritoiesha</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/@secretteacherbella8381"
+                data-unique-id="secretteacherbella8381"
+                data-embed-from="embed_page"
+                data-embed-type="creator"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    href="https://www.tiktok.com/@secretteacherbella8381?refer=creator_embed"
+                    >@secretteacherbella8381</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/@blondelawyermandii"
+                data-unique-id="blondelawyermandii"
+                data-embed-from="embed_page"
+                data-embed-type="creator"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    href="https://www.tiktok.com/@blondelawyermandii?refer=creator_embed"
+                    >@blondelawyermandii</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/@kathrine_simons1"
+                data-unique-id="kathrine_simons1"
+                data-embed-from="embed_page"
+                data-embed-type="creator"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    href="https://www.tiktok.com/@kathrine_simons1?refer=creator_embed"
+                    >@kathrine_simons1</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/@youronlymaryjanes"
+                data-unique-id="youronlymaryjanes"
+                data-embed-from="embed_page"
+                data-embed-type="creator"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    href="https://www.tiktok.com/@youronlymaryjanes?refer=creator_embed"
+                    >@youronlymaryjanes</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/@letsplaywithana"
+                data-unique-id="letsplaywithana"
+                data-embed-from="embed_page"
+                data-embed-type="creator"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    href="https://www.tiktok.com/@letsplaywithana?refer=creator_embed"
+                    >@letsplaywithana</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/@princessamiraevans"
+                data-unique-id="princessamiraevans"
+                data-embed-from="embed_page"
+                data-embed-type="creator"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    href="https://www.tiktok.com/@princessamiraevans?refer=creator_embed"
+                    >@princessamiraevans</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/@anotherlolarose2"
+                data-unique-id="anotherlolarose2"
+                data-embed-from="embed_page"
+                data-embed-type="creator"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    href="https://www.tiktok.com/@anotherlolarose2?refer=creator_embed"
+                    >@anotherlolarose2</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/@loveurkatrina"
+                data-unique-id="loveurkatrina"
+                data-embed-from="embed_page"
+                data-embed-type="creator"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    href="https://www.tiktok.com/@loveurkatrina?refer=creator_embed"
+                    >@loveurkatrina</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/@callme.alexxandra"
+                data-unique-id="callme.alexxandra"
+                data-embed-from="embed_page"
+                data-embed-type="creator"
+                style="max-width: 780px; min-width: 288px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    href="https://www.tiktok.com/@callme.alexxandra?refer=creator_embed"
+                    >@callme.alexxandra</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade show"
+          id="video"
+          role="tabpanel"
+          aria-labelledby="video-tab"
+        >
+          <div class="row">
+            <div class="col-12 col-lg-4 gy-5">
+              <lite-tiktok videoid="7272819960404102443"></lite-tiktok>
+            </div>
+
+            <div class="col-12 col-lg-4 gy-5">
+              <lite-tiktok videoid="7255430213532667178"></lite-tiktok>
+            </div>
+
+            <div class="col-12 col-lg-4 gy-5">
+              <lite-tiktok videoid="7271758501649648939"></lite-tiktok>
+            </div>
+
+            <div class="col-12 col-lg-4 gy-5">
+              <lite-tiktok videoid="7272503340716657962"></lite-tiktok>
+            </div>
+
+            <div class="col-12 col-lg-4 gy-5">
+              <lite-tiktok videoid="7292640357475536170"></lite-tiktok>
+            </div>
+
+            <div class="col-12 col-lg-4 gy-5">
+              <lite-tiktok videoid="7259819797280460078"></lite-tiktok>
+            </div>
+
+            <div class="col-12 col-lg-4 gy-5">
+              <lite-tiktok videoid="7275272504095051050"></lite-tiktok>
+            </div>
+
+            <div class="col-12 col-lg-4 gy-5">
+              <lite-tiktok videoid="7276565962931850539"></lite-tiktok>
+            </div>
+
+            <div class="col-12 col-lg-4 gy-5">
+              <lite-tiktok videoid="7301458958420692267"></lite-tiktok>
+            </div>
+
+            <div class="col-12 col-lg-4 gy-5">
+              <lite-tiktok videoid="7299227525908155694"></lite-tiktok>
+            </div>
+
+            <div class="col-12 col-lg-4 gy-5">
+              <lite-tiktok videoid="7290561750095744299"></lite-tiktok>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
     <script async src="https://www.tiktok.com/embed.js"></script>
   </body>
 </html>
